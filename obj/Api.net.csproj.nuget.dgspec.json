@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Api.net\\Api.net.csproj": {}
+    "c:\\Api.net\\Api.net.csproj": {}
   },
   "projects": {
-    "C:\\Api.net\\Api.net.csproj": {
+    "c:\\Api.net\\Api.net.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Api.net\\Api.net.csproj",
+        "projectUniqueName": "c:\\Api.net\\Api.net.csproj",
         "projectName": "Api.net",
-        "projectPath": "C:\\Api.net\\Api.net.csproj",
+        "projectPath": "c:\\Api.net\\Api.net.csproj",
         "packagesPath": "C:\\Users\\van_a\\.nuget\\packages\\",
-        "outputPath": "C:\\Api.net\\obj\\",
+        "outputPath": "c:\\Api.net\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\van_a\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.10.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
