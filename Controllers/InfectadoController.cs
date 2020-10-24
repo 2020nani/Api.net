@@ -2,6 +2,7 @@ using Api.net.Models;
 using Api.net.Data.Collections;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Driver;
+using System;
 
 namespace Api.net.Data.Controllers
 {
@@ -45,6 +46,16 @@ namespace Api.net.Data.Controllers
             );
             
             return Ok( "atualizado com sucesso");
+        }
+
+        [HttpDelete("{dataNasc}")]
+        public ActionResult DeletarInfectado(DateTime dataNasc)
+        {
+
+            _infectadosCollection.DeleteOne(Builders<Infectado>.Filter.Where(_ => _.DataNascimento == dataNasc)
+            );
+            
+            return Ok( "Deletado com sucesso");
         }
     }
 }
