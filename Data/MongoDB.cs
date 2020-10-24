@@ -15,9 +15,9 @@ namespace Api.net.Data
         {
             try
             {
-                var settings = MongoClientSettings.FromUrl(new MongoUrl(configuration["ConnectionString"]));
-                var client = new MongoClient(settings);
-                DB = client.GetDatabase(configuration["NomeBanco"]);
+                
+                var client = new MongoClient("mongodb+srv://api:grandparents35@dionet.ggc5h.mongodb.net/test?retryWrites=true&w=majority");
+                DB = client.GetDatabase("test");
                 MapClasses();
             }
             catch (Exception ex)
