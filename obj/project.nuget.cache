@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uoR7GUsX4ebSbhuhSs581Geyt7iRVuFIkhUlwxFQxldzFZejrCbfYz6n/TrRIB1D4bKwxIUL+LCHHF1cAaNj/Q==",
+  "dgSpecHash": "OCg7vWBqReebjpT87JBOLP34/lkj7WRStzGvlPxRd4SlVP6Z5xvyHH6wnNr3t5jFacE85ZORWjO8x1fcITEQeA==",
   "success": true,
-  "projectFilePath": "c:\\Api.net\\Api.net.csproj",
+  "projectFilePath": "C:\\Api.net\\Api.net.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\van_a\\.nuget\\packages\\dnsclient\\1.2.0\\dnsclient.1.2.0.nupkg.sha512",
     "C:\\Users\\van_a\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
